@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/galeria"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Galeria">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="34dp"
+                android:layout_marginBottom="5dp"
+                android:background="#ffffff"
+                android:fontFamily="@font/playfair_display"
+                android:text="GALERIA"
+                android:textAlignment="center"
+                android:textColor="#A87E4E"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:src="@drawable/gallery1a" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#ffffff"
+                android:fontFamily="@font/playfair_display"
+                android:text="Restauracja"
+                android:textAlignment="center"
+                android:textColor="#A87E4E"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:src="@drawable/gallery_2a" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#ffffff"
+                android:fontFamily="@font/playfair_display"
+                android:text="Kuchnia"
+                android:textAlignment="center"
+                android:textColor="#A87E4E"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:src="@drawable/gallery_3a" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/playfair_display"
+                android:text="Ogródek"
+                android:textAlignment="center"
+                android:textColor="#A87E4E"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gallery_4a" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/playfair_display"
+                android:text="Przyjęcia"
+                android:textAlignment="center"
+                android:textColor="#A87E4E"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/lora"
+                android:text="Staromiejskie restauracje "
+                android:textColor="#B58A56"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="1dp"
+                android:fontFamily="@font/lora"
+                android:text="Zobacz nasze pozostałe restauracje, "
+                android:textColor="#2E2E2E"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/lora"
+                android:text="zapraszamy, koniecznie musisz tam pójść."
+                android:textColor="#2E2E2E"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="240dp"
+                android:layout_height="95dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="21dp"
+                android:src="@drawable/ic_enoteka_logo" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="240dp"
+                android:layout_height="95dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="21dp"
+                android:src="@drawable/ic_romantyczna_logo" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="240dp"
+                android:layout_height="95dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:src="@drawable/ic_latem_logo" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,18 +1,455 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:id="@+id/glownaa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="680dp"
+                android:background="#f8f3ec" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:layout_marginTop="-900dp"
+                app:srcCompat="@drawable/glowna1" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-440dp"
+                android:layout_marginRight="60dp"
+                android:padding="15dp"
+                app:srcCompat="@drawable/ic_romantyczna_logo" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-45dp"
+                android:layout_marginRight="45dp"
+                android:fontFamily="@font/playfair_display"
+                android:padding="30dp"
+                android:text=" Warszawa, Rynek Starego Miasta 18"
+                android:textAlignment="center"
+                android:textColor="#2e2e2e"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginRight="70dp"
+                android:fontFamily="@font/lora"
+                android:text="Tel: (+48) 726 34 36 34"
+                android:textColor="#b58a56"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="300dp"
+                android:layout_height="260dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/glownaart" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginRight="80dp"
+                android:fontFamily="@font/playfair_display"
+                android:gravity="center"
+                android:text=" O RESTAURACJI"
+                android:textColor="#a87e4e"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="70dp"
+                android:fontFamily="@font/playfair_display"
+                android:gravity="center"
+                android:text=" Restauracja Romantyczna to polska, nowoczesna kuchnia na Starym Mieście, w pobliżu najpiękniejszych warszawskich zabytków i Pałacu Ślubów. "
+                android:textAlignment="gravity"
+                android:textColor="#2e2e2e"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonMain"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="130dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/lora"
+                android:text="Czytaj więcej"
+                android:textAllCaps="false"
+
+                android:textColor="@color/kolorAplikacji2"
+                android:textStyle="bold"
+                app:strokeColor="@color/kolorAplikacji2"
+                app:strokeWidth="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginTop="-440dp"
+                app:srcCompat="@drawable/glowna2a" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_marginTop="-30dp"
+                app:srcCompat="@drawable/glowna2" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/playfair_display"
+                android:gravity="center"
+                android:text="OFERTA"
+                android:textColor="#a87e4e"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="267dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="80dp"
+                android:fontFamily="@font/playfair_display"
+                android:gravity="center"
+                android:text=" Organizujemy przyjęcia biznesowe, bankiety, kolacje i niepowtarzalne uroczystości rodzinne. "
+                android:textColor="#2e2e2e"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonMain4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="120dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/lora"
+                android:text="Czytaj więcej"
+                android:textAllCaps="false"
+
+                android:textColor="@color/kolorAplikacji2"
+                android:textStyle="bold"
+                app:strokeColor="@color/kolorAplikacji2"
+                app:strokeWidth="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_marginTop="70dp"
+                app:srcCompat="@drawable/glowna3" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_marginTop="-215dp"
+                app:srcCompat="@drawable/glowna4" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/playfair_display"
+                android:gravity="center"
+                android:text="SZEF KUCHNI POLECA"
+                android:textAlignment="center"
+                android:textColor="#a87e4e"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="80dp"
+                android:fontFamily="@font/playfair_display"
+                android:gravity="center"
+                android:text=" Stek z polędwicy sezonowany 21 dni z młodymi ziemniakami i sosem z grzybów leśnych "
+                android:textAlignment="center"
+                android:textColor="#2e2e2e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="80dp"
+                android:fontFamily="@font/playfair_display"
+                android:gravity="center"
+                android:text=" Pierogi z kurkami, wędzonym twarogiem, botwinką i koperkiem "
+                android:textAlignment="center"
+                android:textColor="#2e2e2e"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginTop="-250dp"
+                app:srcCompat="@drawable/glowna5" />
+
+            <Button
+                android:id="@+id/buttonMain2"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="-210dp"
+                android:layout_marginRight="130dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/lora"
+                android:text="Czytaj więcej"
+
+                android:textAllCaps="false"
+                android:textColor="@color/kolorAplikacji2"
+                android:textStyle="bold"
+                app:strokeColor="@color/kolorAplikacji2"
+                app:strokeWidth="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginTop="80dp"
+                app:srcCompat="@drawable/glowna6" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/playfair_display"
+                android:text="KONTAKT"
+                android:textAlignment="center"
+                android:textColor="#a87e4e"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/playfair_display"
+                android:text=" Romantyczna Restauracja "
+                android:textAlignment="center"
+                android:textColor="#2e2e2e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/playfair_display"
+                android:text=" Rynek Starego Miasta 18 "
+                android:textAlignment="center"
+                android:textColor="#2e2e2e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/playfair_display"
+                android:text=" 00-272 Warszawa "
+                android:textAlignment="center"
+                android:textColor="#2e2e2e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/playfair_display"
+                android:text="Tel: (+48) 726 34 36 34"
+                android:textAlignment="center"
+                android:textColor="#b58a56"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/playfair_display"
+                android:text=" lub mailem "
+                android:textAlignment="center"
+                android:textColor="#2e2e2e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/playfair_display"
+                android:text="restauracja@romantyczna.com.pl"
+                android:textAlignment="center"
+                android:textColor="#b58a56"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/playfair_display"
+                android:text=" Restauracja czynna jest od 10.00 do"
+                android:textAlignment="center"
+                android:textColor="#2e2e2e"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/playfair_display"
+                android:text="22.00 "
+                android:textAlignment="center"
+                android:textColor="#2e2e2e"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nawigacja"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginEnd="-65dp"
+        android:layout_marginRight="-65dp"
+        android:background="@drawable/btn_bg"
+        android:fitsSystemWindows="true"
+
+
+
+
+        android:paddingTop="20dp"
+        app:headerLayout="@layout/header"
+        app:itemTextAppearance="@style/NewFontStyle"
+        app:itemTextColor="@color/kolorAplikacji2"
+        app:menu="@menu/drawer_menu">
+
+        <Button
+            android:id="@+id/buttonMain5"
+            android:layout_width="356dp"
+            android:layout_height="108dp"
+            android:alpha="0.0"
+            android:color="#66FF0000"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/textView115"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="440dp"
+            android:fontFamily="@font/lora"
+            android:text="Rynek Starego Miasta 18 "
+            android:textColor="#2e2e2e"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView143"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="465dp"
+            android:fontFamily="@font/lora"
+            android:text="00-272 Warszawa "
+            android:textColor="#2e2e2e"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView144"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="485dp"
+            android:fontFamily="@font/lora"
+            android:text="Tel.: +48 726 34 36 34"
+            android:textColor="#b58a56"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="505dp"
+            android:fontFamily="@font/lora"
+            android:text="restauracja@romantyczna.com.pl"
+            android:textColor="#b58a56"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="150dp"
+            app:srcCompat="@drawable/navigation1" />
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

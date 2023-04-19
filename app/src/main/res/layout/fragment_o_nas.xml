@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".O_nas">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="-25dp"
+                android:src="@drawable/restaurant_70a" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="-35dp"
+                android:layout_marginTop="-55dp"
+                android:src="@drawable/o_nas_2" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-60dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/playfair_display"
+                android:text="O NAS"
+                android:textAlignment="center"
+                android:textColor="#a87e4e"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/lora"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="1sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Restauracja Romantyczna mieści się w zabytkowych piwnicach Muzeum Literatury im. Adama Mickiewicza. Kameralne, ciepłe i  przepełnione historią wnętrze w połączeniu z prostym, nowoczesnym wystrojem tworzy niezapomniany klimat."
+                android:textColor="#2e2e2e"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="@font/lora"
+                android:gravity="center"
+                android:lineSpacingExtra="1sp"
+                android:text="Od wiosny do późnej jesieni zapraszamy do ogródka na Rynku Starego Miasta z widokiem na Syrenkę – symbol Warszawy."
+                android:textAlignment="center"
+                android:textColor="#2e2e2e"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38dp"
+                android:layout_marginRight="38dp"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="@font/lora"
+                android:gravity="center"
+                android:lineSpacingExtra="1sp"
+                android:paddingRight="5dp"
+                android:text="Restauracja Romantyczna powstała ze szczerej potrzeby ugoszczenia ludzi kuchnią opartą o polskie, sezonowe produkty najwyższej jakości, winami z najciekawszych winnic świata i naszą profesjonalną obsługą. W romantycznej kuchni używamy przede wszystkim polskich produktów. Tworzymy nowoczesną polską kuchnię inspirowaną staropolskimi i regionalnymi przepisami. Ze względu na sezonowość dań, nasze menu zmieniamy kilka razy w roku."
+                android:textColor="#2e2e2e"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:layout_marginRight="36dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/lora"
+                android:gravity="center"
+                android:lineSpacingExtra="1sp"
+                android:paddingLeft="5dp"
+                android:text="Wierzymy, że wizyta w Romantycznej będzie dla Państwa ciekawym przeżyciem i z przyjemnością wrócicie do nas w przyszłości."
+                android:textAlignment="center"
+                android:textColor="#2e2e2e"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:background="#F8F3EC"
+                android:src="@mipmap/art_100" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-40dp"
+                android:background="#F8F3EC"
+                android:fontFamily="@font/playfair_display"
+                android:paddingBottom="20dp"
+                android:text="Szef Kuchni"
+                android:textAlignment="center"
+                android:textColor="#A87E4E"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F8F3EC"
+                android:fontFamily="@font/lora"
+                android:text="RAFAŁ RÓWNY"
+                android:textAlignment="center"
+                android:textColor="#2E2E2E"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="404dp"
+                android:layout_marginBottom="25dp"
+                android:background="#F8F3EC"
+                android:fontFamily="@font/lora"
+                android:lineSpacingExtra="1sp"
+                android:paddingLeft="42dp"
+                android:paddingTop="20dp"
+                android:paddingRight="42dp"
+                android:text="Pochodzi z Mazur. Doświadczony, z otwartym umysłem, chętnie podąża za kulinarnymi trendami, ceni sobie lokalne produkty i ich sezonowość, a na pierwszym miejscu stawia jakość składników. Jego kuchnia charakteryzuje się pomysłowością i wyczuciem smaku. Opiera się na polskiej tradycji kulinarnej z europejskim akcentem. Nasz szef kuchni lubi dobrze nakarmić ludzi – zarówno gości, jak i obsługę. To On uczy nas wszystkich jak czerpać przyjemność z jedzenia."
+                android:textAlignment="center"
+                android:textColor=" #2e2e2e"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonMain3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="-120dp"
+                android:layout_marginRight="130dp"
+                android:backgroundTint="#F8F3EC"
+                android:fontFamily="@font/lora"
+                android:text="Zobacz menu"
+
+                android:textAllCaps="false"
+                android:textColor="@color/kolorAplikacji2"
+                android:textStyle="bold"
+                app:strokeColor="@color/kolorAplikacji2"
+                app:strokeWidth="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="100dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="-550dp"
+                android:src="@drawable/o_nas" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="330dp"
+                android:fontFamily="@font/playfair_display"
+                android:text="Nasz Zespół"
+                android:textAlignment="center"
+                android:textColor="#A87E4E"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="36dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/lora"
+                android:gravity="center"
+                android:lineSpacingExtra="1sp"
+                android:text="Lubimy i szanujemy naszych Gości. Lubimy i szanujemy siebie wzajemnie. Romantyczny zespół tworzą ludzie z pasją       i doświadczeniem. Wszystkim zależy na tym, aby nasi Goście byli szczerze zadowoleni. Staramy się dbać o ich satysfakcję i komfort po to, żeby ponownie nas odwiedzili w Romantycznej."
+                android:textAlignment="center"
+                android:textColor=" #2e2e2e"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/gallery_5a" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="-101dp"
+                android:src="@drawable/gallery_6a" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:fontFamily="@font/lora"
+                android:gravity="center"
+                android:lineSpacingExtra="1sp"
+                android:text="Wymagania naszych Gości są wyzwaniem, któremu zawszę staramy się sprostać."
+                android:textAlignment="center"
+                android:textColor="#2E2E2E"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:fontFamily="@font/lora"
+                android:gravity="center"
+                android:lineSpacingExtra="1sp"
+                android:text=" Restauracja Romantyczna to doskonałe miejsce na organizację kameralnych spotkań i bankietów biznesowych, i uroczystości rodzinnych."
+                android:textAlignment="center"
+                android:textColor="#2E2E2E"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/lora"
+                android:text="Staromiejskie restauracje "
+                android:textColor="#B58A56"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="1dp"
+                android:fontFamily="@font/lora"
+                android:text="Zobacz nasze pozostałe restauracje, "
+                android:textColor="#2E2E2E"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/lora"
+                android:text="zapraszamy, koniecznie musisz tam pójść."
+                android:textColor="#2E2E2E"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="21dp"
+                android:src="@drawable/ic_enoteka_logo" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="21dp"
+                android:src="@drawable/ic_romantyczna_logo" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:src="@drawable/ic_latem_logo" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
